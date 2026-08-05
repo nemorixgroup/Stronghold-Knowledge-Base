@@ -57,7 +57,24 @@ stronghold-knowledge-base/
 | 05 | [StrongholdNET & Bridges](module-05-strongholdnet/README.md) | ACH/ISO 20022 rails, Stronghold Pay API, SHx Bridge via Axelar, the still-unreleased open-access API console |
 | 06 | [Development Ecosystem](module-06-development/README.md) | `stellar_flutter_sdk` as the composition base, the mobile-SDK gap, architecture plan for `stronghold_flutter_sdk` |
 | 07 | [Ecosystem & Grants](module-07-ecosystem/README.md) | Exchange listings, community size, the EDP Ecosystem Grants program, our application |
- 
+
+ ## SDK Technical Decisions
+
+This repository also documents the implementation decisions behind **stronghold_flutter_sdk**, the first native Flutter/Dart SDK for the SHx token ecosystem on Stellar. Every implementation decision is grounded in official Stronghold/SHx sources, official Stellar network data, or direct on-chain verification, no third-party references, no unverified code.
+
+Current status: Phase 1 completed, Phase 2 **in progress**.
+
+| Phase | Status |
+|---|---|
+| Phase 1 - Architecture & Core Setup | ✅ Done |
+| Phase 2 - SHx Asset Operations & Onboarding | ⏸️ Next |
+| Phase 3 - Governance (Voting) | ⏳ Pending |
+| Phase 4 - Escrow Contract Client | ⏳ Pending |
+| Phase 5 - Bridge Status & Tracking | ⏳ Pending |
+| Phase 6 - Testing, Documentation & pub.dev v1.0 | ⏳ Pending |
+
+See [`docs-sdk/`](docs-sdk/README.md) for the full documentation by phase.
+
 ## Key Technical Facts (Quick Reference)
  
 | Property | Value |
