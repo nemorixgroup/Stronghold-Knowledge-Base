@@ -39,9 +39,9 @@ docs-sdk/
 
 | Feature | Description | Status |
 |---|---|---|
-| Account Bootstrap Helpers | Granular, composable helpers vs. one monolithic onboarding function | 🔄 Next |
-| Mainnet Funding Source | Why the funding `KeyPair` is a caller-supplied parameter, not SDK-managed | ⏳ Pending |
-| Trustline & Payment | Already implemented in the Phase 1 scaffold | ⏳ Pending write-up |
+| [Account Bootstrap Helpers](https://github.com/nemorixgroup/Stronghold-Knowledge-Base/blob/main/docs-sdk/phase-2/account-bootstrap-helpers/README.md) | Granular, composable helpers vs. one monolithic onboarding function | ✅ Done |
+| [Mainnet Funding Source](https://github.com/nemorixgroup/Stronghold-Knowledge-Base/blob/main/docs-sdk/phase-2/mainnet-funding-source/README.md) | Why the funding `KeyPair` is a caller-supplied parameter, not SDK-managed | ✅ Done |
+| Trustline & Payment | Already implemented in the Phase 1 scaffold | 🔄 Next |
 | Path Payment | Cross-asset SHx conversion | ⏳ Pending |
 
 ## Phase 3 - Governance (Voting)
