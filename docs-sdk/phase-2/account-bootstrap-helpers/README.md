@@ -31,4 +31,4 @@ Composable steps over a single opinionated flow. A monolithic helper can still b
 
 ## Related
 
-- [Mainnet Funding Source](https://github.com/nemorixgroup/Stronghold-Knowledge-Base/new/main/docs-sdk/phase-2/mainnet-funding-source/README.md)
+- [Mainnet Funding Source](https://github.com/nemorixgroup/Stronghold-Knowledge-Base/blob/main/docs-sdk/phase-2/mainnet-funding-source/README.md)
