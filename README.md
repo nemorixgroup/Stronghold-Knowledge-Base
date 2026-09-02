@@ -53,10 +53,10 @@ stronghold-knowledge-base/
 | 01 | [Foundations & History](module-01-foundations/README.md) | Company origin, founders, IBM as first client, SHx launch (2018), EDP mandate |
 | 02 | [The SHx Token](module-02-shx-token/README.md) | Asset code and issuer, 7 decimals, 100B fixed supply, trustlines, the Soroban SAC wrapper |
 | 03 | [Governance](module-03-governance/README.md) | Governance Rules document, `ManageData`-based voting, proposal history (#1-#7), Snapshot for Ethereum |
-| 04 | [The Escrow Contract](module-04-escrow-contract/README.md) | 60B SHx / 5-year lock ladder, verified Soroban contract spec (`lock`, `unlock`, `extend_ttl`), source-verification gap |
-| 05 | [StrongholdNET & Bridges](module-05-strongholdnet/README.md) | ACH/ISO 20022 rails, Stronghold Pay API, SHx Bridge via Axelar, the still-unreleased open-access API console |
-| 06 | [Development Ecosystem](module-06-development/README.md) | `stellar_flutter_sdk` as the composition base, the mobile-SDK gap, architecture plan for `stronghold_flutter_sdk` |
-| 07 | [Ecosystem & Grants](module-07-ecosystem/README.md) | Exchange listings, community size, the EDP Ecosystem Grants program, our application |
+| 04 | The Escrow Contract | 60B SHx / 5-year lock ladder, verified Soroban contract spec (`lock`, `unlock`, `extend_ttl`), source-verification gap |
+| 05 | StrongholdNET & Bridges | ACH/ISO 20022 rails, Stronghold Pay API, SHx Bridge via Axelar, the still-unreleased open-access API console |
+| 06 | Development Ecosystem | `stellar_flutter_sdk` as the composition base, the mobile-SDK gap, architecture plan for `stronghold_flutter_sdk` |
+| 07 | Ecosystem & Grants | Exchange listings, community size, the EDP Ecosystem Grants program, our application |
 
  ## SDK Technical Decisions
 
@@ -67,7 +67,7 @@ Current status: Phase 1 completed, Phase 2 **in progress**.
 | Phase | Status |
 |---|---|
 | Phase 1 - Architecture & Core Setup | ✅ Done |
-| Phase 2 - SHx Asset Operations & Onboarding | ⏸️ Next |
+| Phase 2 - SHx Asset Operations & Onboarding | 🔄 Next |
 | Phase 3 - Governance (Voting) | ⏳ Pending |
 | Phase 4 - Escrow Contract Client | ⏳ Pending |
 | Phase 5 - Bridge Status & Tracking | ⏳ Pending |
