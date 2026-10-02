@@ -42,6 +42,7 @@ docs-sdk/
 | [Account Bootstrap Helpers](https://github.com/nemorixgroup/Stronghold-Knowledge-Base/blob/main/docs-sdk/phase-2/account-bootstrap-helpers/README.md) | Granular, composable helpers vs. one monolithic onboarding function | ✅ Done |
 | [Mainnet Funding Source](https://github.com/nemorixgroup/Stronghold-Knowledge-Base/blob/main/docs-sdk/phase-2/mainnet-funding-source/README.md) | Why the funding `KeyPair` is a caller-supplied parameter, not SDK-managed | ✅ Done |
 | [SHx Trustline](phase-2/shx-trustline/README.md) | Self-authorized (no funding source); why it cannot be end-to-end tested on Testnet (`op_no_issuer`) | ✅ Done |
+| [Balance Queries](https://github.com/nemorixgroup/Stronghold-Knowledge-Base/blob/main/docs-sdk/phase-2/balance-queries/README.md) | Why `ShxBalance` is separate from `ShxWallet`, why no trustline returns `'0'` instead of throwing, why matching requires asset code + issuer together | ✅ Done |
 | Payment | Payment integration | 🔄 Next |
 | Path Payment | Cross-asset SHx conversion | ⏳ Pending |
 
