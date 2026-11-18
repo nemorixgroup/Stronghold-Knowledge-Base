@@ -43,8 +43,8 @@ docs-sdk/
 | [Mainnet Funding Source](https://github.com/nemorixgroup/Stronghold-Knowledge-Base/blob/main/docs-sdk/phase-2/mainnet-funding-source/README.md) | Why the funding `KeyPair` is a caller-supplied parameter, not SDK-managed | ✅ Done |
 | [SHx Trustline](phase-2/shx-trustline/README.md) | Self-authorized (no funding source); why it cannot be end-to-end tested on Testnet (`op_no_issuer`) | ✅ Done |
 | [Balance Queries](https://github.com/nemorixgroup/Stronghold-Knowledge-Base/blob/main/docs-sdk/phase-2/balance-queries/README.md) | Why `ShxBalance` is separate from `ShxWallet`, why no trustline returns `'0'` instead of throwing, why matching requires asset code + issuer together | ✅ Done |
-| Payment | Payment integration | 🔄 Next |
-| Path Payment | Cross-asset SHx conversion | ⏳ Pending |
+| [SHx Payment](https://github.com/nemorixgroup/Stronghold-Knowledge-Base/blob/main/docs-sdk/phase-2/shx-payment/README.md) | Payment integration; `ShxPayment.send` | ✅ Done |
+| Path Payment | Cross-asset SHx conversion | 🔄 Next |
 
 ## Phase 3 - Governance (Voting)
 
